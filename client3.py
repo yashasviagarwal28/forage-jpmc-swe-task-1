@@ -30,7 +30,7 @@ N = 500
 
 
 def getDataPoint(quote):
-    """ Produce all the needed values to generate a datapoint """
+
     stock = quote['stock']
     bid_price = float(quote['top_bid']['price'])
     ask_price = float(quote['top_ask']['price'])
